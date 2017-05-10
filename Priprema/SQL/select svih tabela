@@ -1,0 +1,13 @@
+●  Selektovali smo sve adrese iz baze.
+
+SELECT *
+FROM Address LEFT JOIN Place
+ON address.Place_id=place.id
+LEFT JOIN Country
+ON Place.Country_id = Country.id;
+
+
+SELECT ime, prezime FROM student LIMIT 5;
+
+
+
